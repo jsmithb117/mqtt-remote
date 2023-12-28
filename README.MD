@@ -5,8 +5,7 @@ This is a simple React application with core remote control functionality that t
 ## Installation
 1. Clone the repository
 2. Rename client/example-secrets.ts to client/secrets.ts and fill in the values
-3. Run `npm install` and `npm run build` from the client directory.
-4. Run `npm install` and `npm run start`from the server directory.
+3. Run `npm install`, `npm run build`, and `npm run prod` from the client directory.
 5. Open http://<local_ip>:3000 in your browser.
 
 ## Usage
