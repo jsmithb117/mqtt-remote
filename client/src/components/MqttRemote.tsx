@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import mqtt from 'mqtt';
-import { mqttConnectionOptions } from './secrets';
+import { mqttConnectionOptions } from '../secrets'
 
 import CloudIcon from '@mui/icons-material/Cloud';
 import CloudOffIcon from '@mui/icons-material/CloudOff';
 import CellTowerIcon from '@mui/icons-material/CellTower';
 
 import Box from '@mui/material/Box';
-import Remote from './components/Remote';
+import Remote from './Remote';
 
 
 const IR_RECEIVER_TOPIC = 'home/living/entertainment/tv/controller/logged-in/boolean';
